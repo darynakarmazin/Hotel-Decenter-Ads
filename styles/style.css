@@ -2,11 +2,12 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+* {
+  box-sizing: border-box;
+}
 html,
 body,
 div,
-span,
 applet,
 object,
 iframe,
@@ -42,7 +43,6 @@ sub,
 sup,
 tt,
 var,
-b,
 u,
 i,
 center,
@@ -199,4 +199,181 @@ header .btn {
 .info p {
   font-size: 18px;
   line-height: 1.22;
+}
+
+.advantages {
+  padding: 85px 0 100px;
+  background-color: #f2f9ff;
+}
+
+.advantages__bloks {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 1178px;
+  margin: 0 auto;
+}
+
+.advantage__blok {
+  display: flex;
+}
+
+.advantage__blok:nth-child(2) img {
+  order: 1;
+}
+
+.advantage__blok img {
+  width: 585px;
+  height: 585px;
+  border-radius: 10px;
+}
+
+.advantages__description h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+  color: #0f4c92;
+  margin-bottom: 20px;
+}
+.advantages__description span {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #1b1b1b;
+  margin-bottom: 40px;
+}
+.advantages__description p {
+  font-size: 18px;
+  line-height: 1.44;
+  color: #1b1b1b;
+}
+.advantages__description button {
+  font-size: 21px;
+  line-height: 1.19;
+  text-align: center;
+  color: #ffffff;
+  background: #0d599c;
+  border-radius: 95px;
+  border: none;
+  padding: 16px 70px;
+  margin-top: 40px;
+}
+
+.advantages__description {
+  padding-left: 80px;
+  padding-top: 65px;
+}
+
+.advantage__blok:nth-child(2) .advantages__description {
+  padding-left: 0;
+  padding-right: 142px;
+}
+
+.booking {
+  margin: 0 auto;
+  padding: 97px;
+  background-color: #b5e4ff;
+}
+
+.container__booking {
+  background: #2b477c;
+  border-radius: 19px;
+  text-align: center;
+  width: 785px;
+  padding: 60px 60px 30px;
+  margin: 0 auto;
+}
+
+.container__booking h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.18;
+  color: #f4f4f4;
+  margin-bottom: 40px;
+}
+
+.container__booking p {
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: #f4f4f4;
+  margin-bottom: 30px;
+}
+
+.container__booking button {
+  background: #ff9728;
+  border-radius: 84px;
+  border: none;
+  font-size: 21px;
+  line-height: 1.19;
+  text-align: center;
+  color: #ffffff;
+  padding: 16px 40px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.callback-form {
+  background: linear-gradient(327.75deg, #0080bf 9.35%, #00496c 117.99%);
+  border-radius: 50px;
+  padding: 100px 78px 51px;
+  text-align: center;
+}
+
+.callback-form h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.18;
+  color: #f9f9f9;
+  margin-bottom: 78px;
+}
+
+.callback-form input {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #f9f9f9;
+
+  width: 352px;
+  border: 1px solid #f7f6f6;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 14px 30px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.callback-form input:first-child {
+  margin-right: 15px;
+}
+
+.callback-form input::placeholder {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.67;
+  color: rgba(178, 227, 255, 0.85);
+}
+
+.callback-form .callback-form__btn {
+  font-size: 21px;
+  line-height: 1.19;
+  text-align: center;
+  color: #ffffff;
+  background: #ff9728;
+  border: none;
+  border-radius: 83px;
+  width: 192px;
+  margin-top: 55px;
 }
