@@ -378,12 +378,27 @@ header .btn {
   margin-top: 55px;
 }
 
+.map_section h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.18;
+  color: #0f4c92;
+  margin-bottom: 72px;
+  margin-top: 78px;
+}
+
+.map {
+  width: 100%;
+  height: 355px;
+}
+
 footer {
   background-color: #0b83be;
   text-align: center;
 }
 
-.footer-section {
+.container__footer {
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 115px;
@@ -391,24 +406,25 @@ footer {
   width: 705px;
 }
 
-.footer-section .logotype {
+.container__footer .logotype {
   margin: 0 auto;
 }
 
-.footer-section p {
+.container__footer p {
   margin-bottom: 90px;
   font-size: 20px;
   line-height: 1.15;
   color: #ffffff;
 }
 
-.footer-section address {
+.container__footer address {
   font-size: 20px;
   line-height: 1.15;
   color: #ffffff;
 }
 
-.footer-section a {
+.container__footer a {
   color: inherit;
   text-decoration: none;
 }
+
